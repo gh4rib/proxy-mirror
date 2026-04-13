@@ -1,6 +1,6 @@
 // api/proxy.js - Handles all HTTP methods and strips mirror redirects
 
-const MIRROR_BASE_URL = 'http://pkg0.nyi.freebsd.org:80'; // CHANGE THIS
+const MIRROR_BASE_URL = 'http://pkg0.nyi.freebsd.org:80'; // CHANGE IT
 
 export default async function handler(req, res) {
     // Build the target URL from the request path + query
